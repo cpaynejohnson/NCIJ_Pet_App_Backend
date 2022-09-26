@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:report": "jest --coverage=true",
-    "seeddb": "node seed.js"
+    "test:report": "jest --coverage=true"
   },
   "repository": {
     "type": "git",
