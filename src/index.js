@@ -20,8 +20,8 @@ const  {Dogs} = require('../models/dogs')
 
 //index redirects to dog
 app.get('/', (req,res)=>{
-    // res.redirect('/dogs')
-    res.send("Express on Vercel");
+    res.redirect('/dogs');
+    // res.send("Express on Vercel");
 })
 
 app.get('/dogs', async (req, res) => { 
