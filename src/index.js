@@ -1,7 +1,7 @@
 //Express
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 3001;
 const seed = require('../seed');
 
 //Allow express to read json request bodies
@@ -54,7 +54,7 @@ app.get('/gender/:gender', async (req, res) => {
     res.json({dogByGender}); 
 })
 app.listen(port, () => {
-    console.log(`Server listening at http://localhost:${port}`)
+    console.log(`Server listening at http://localhost:3001`)
 })
 
 
